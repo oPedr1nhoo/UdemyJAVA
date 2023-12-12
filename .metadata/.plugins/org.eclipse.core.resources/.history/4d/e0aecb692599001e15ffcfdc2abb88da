@@ -1,0 +1,24 @@
+package PROGRAM;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int s1;
+		
+		System.out.printf("Digte um valores inteiros: ");
+		s1 = sc.nextInt();
+		
+		if(s1 % 2 != 0)
+			System.out.printf("Número ímpar!!");
+		else
+			System.out.printf("Número par!!");
+			
+		sc.close();
+	}
+
+}

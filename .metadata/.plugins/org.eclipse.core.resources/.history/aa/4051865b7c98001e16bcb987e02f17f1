@@ -1,0 +1,22 @@
+package Program;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Scanner sc = new Scanner(System.in)
+					
+				int s1, s2;
+			
+		System.out.printf("Digte dois valores inteiros: ");
+		s1 = sc.nextInt();
+		s2 = sc.nextInt();
+		System.out.printf("os valores foram respectivamente: %d e %d ", s1,s2);
+					
+					
+					sc.close();
+	}
+
+}
