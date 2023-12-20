@@ -46,7 +46,7 @@ Scanner sc = new Scanner(System.in);
             System.out.println("PAYMENTS:");
             System.out.println(emp.getName() + " - $ " + String.format("%.2f", emp.payment()));
         }
-        
+
         sc.close();
 }
 }
